@@ -1,6 +1,7 @@
 my-graph
 
 *.DS_Store
+data
 
 # Prerequisites
 *.d
