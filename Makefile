@@ -10,7 +10,7 @@ OBJS = ./src/main.o
 all : exec
 
 exec : $(OBJS)
-	$(CC) $(CFLAGS) $(OBJS) -o ./my-graph
+	$(CC) $(CFLAGS) $(LDFLAGS) $(OBJS) -o ./my-graph
 
 clean:
 	$(RM) $(OBJS) *~ my-graph src/*~
