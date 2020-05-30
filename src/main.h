@@ -1,5 +1,11 @@
-#include <stdio.h>
+#ifndef main_h
+#define main_h
+
 #include <stdlib.h>
 #include <igraph.h>
-#include <time.h>
-#include <err.h>
+
+#include "utils.h"
+#include "clustering.h"
+#include "reorder.h"
+
+#endif /* main_h */
